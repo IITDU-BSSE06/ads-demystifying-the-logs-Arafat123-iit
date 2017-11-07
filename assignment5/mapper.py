@@ -9,4 +9,4 @@ for line in sys.stdin:
 		a0, a1 ,a2 ,a3 ,a4 ,a5 ,a6 ,a7 ,a8 ,a9= data
 		path = urlparse.urlparse(a6).path
 
-		print "{0}\t{1}".format(path,a7)
+		print "{0}\t{1}".format(a6,a6)
